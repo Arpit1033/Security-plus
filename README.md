@@ -60,4 +60,6 @@ Follow these steps to set up and run the Flask backend:
    ```sh
    python app.py
 
-The Model Weights can be downloaded from here: https://drive.google.com/file/d/1hJiKJBcu3phWvjucH_zYD22Y_DpZ0-oy 
+## Dataset
+- The dataset that we used to train our model is the UCF Crime Dataset available on [Kaggle](https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset).
+- The Model Weights can be downloaded from [here](https://drive.google.com/file/d/1hJiKJBcu3phWvjucH_zYD22Y_DpZ0-oy).
