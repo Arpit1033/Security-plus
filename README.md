@@ -23,3 +23,5 @@ Security Plus specializes in AI-powered surveillance technology designed to enha
 - *Scalable Solutions*: Suitable for businesses, public spaces, and communities.
 
 Stay one step ahead of crime with Security Plus – the intelligent surveillance system built for modern security needs.
+
+The Model Weights can be downloaded from here: https://drive.google.com/file/d/1hJiKJBcu3phWvjucH_zYD22Y_DpZ0-oy 
