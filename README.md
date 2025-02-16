@@ -24,4 +24,40 @@ Security Plus specializes in AI-powered surveillance technology designed to enha
 
 Stay one step ahead of crime with Security Plus – the intelligent surveillance system built for modern security needs.
 
+# Running the Flask Backend
+
+Follow these steps to set up and run the Flask backend:
+
+## Prerequisites
+
+- Python (>=3.8)
+- pip (latest version recommended)
+- Virtual environment (optional but recommended)
+
+## Installation
+
+1. **Clone the Repository**
+   
+   ```sh
+   git clone "https://github.com/Sarthacker/Security-plus.git"
+   cd security-plus
+
+2. **Create and Activate Virtual Environment (Optional but Recommended)**
+   
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   venv\Scripts\activate  # Windows
+
+3. **Install Dependencies**
+
+   ```sh
+   cd backend
+   pip install -r requuirements.txt
+
+4. **Run the Flask Server**
+
+   ```sh
+   python app.py
+
 The Model Weights can be downloaded from here: https://drive.google.com/file/d/1hJiKJBcu3phWvjucH_zYD22Y_DpZ0-oy 
