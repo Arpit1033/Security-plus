@@ -1,5 +1,7 @@
 # Security Plus
 
+[Demo Video](https://github.com/Sarthacker/Security-plus/blob/main/demo.mkv)
+
 ## Overview
 Security Plus specializes in AI-powered surveillance technology designed to enhance real-time security. Our state-of-the-art software continuously monitors live video feeds, identifying criminal activities such as theft, violence, or suspicious behavior. 
 
