@@ -53,7 +53,7 @@ Follow these steps to set up and run the Flask backend:
 
    ```sh
    cd backend
-   pip install -r requuirements.txt
+   pip install -r requirements.txt
 
 4. **Run the Flask Server**
 
