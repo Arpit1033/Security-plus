@@ -5,8 +5,7 @@ function About() {
         <section className="about">
             <h3 className="about-title">What we do?</h3>
             <p className="about-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            At Security Plus, we specialize in AI-driven surveillance technology that enhances security in real time. Our advanced software continuously analyzes live video feeds to detect ongoing criminal activities, such as theft, violence, or suspicious behavior. The system is powered by state-of-the-art machine learning algorithms that accurately identify threats and anomalies. If any unlawful activity is detected, it immediately sends alerts to the concerned authorities, enabling swift response and prevention. With Security Plus, you get proactive security solutions that help safeguard communities, businesses, and public spaces. Stay ahead of crime with our intelligent surveillance system.
             </p>
         </section>
     );

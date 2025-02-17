@@ -7,7 +7,7 @@
 
 .live-footage {
     max-width: 800px;
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
     padding: 20px;
     background-color: #f8f8f8;
@@ -26,8 +26,8 @@
 
 .video-container img {
     width: 100%;
-    max-width: 400px;
-    height: 200px;
+    width: 800px;
+    height: 600px;
     border-radius: 8px;
 }
 

@@ -43,7 +43,7 @@ class CrimeModel3D(nn.Module):
 def load_model():
     global model
     model = CrimeModel3D().to(device)
-    model.load_state_dict(torch.load('crime_model_epoch_10.pth', map_location=device))
+    model.load_state_dict(torch.load('model_weights/crime_model_epoch_10.pth', map_location=device))
     model.eval()
 
 transform = transforms.Compose([
@@ -51,7 +51,7 @@ transform = transforms.Compose([
     transforms.Resize((64, 64))
 ])
 
-cap = cv2.VideoCapture(1)  # Capture from webcam
+cap = cv2.VideoCapture(1)  # Adjust the camera index according to the your own device
 
 def generate_frames():
     frames = []
