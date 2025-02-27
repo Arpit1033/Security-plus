@@ -3,7 +3,7 @@
 ![Demo](demo.gif)
 
 ## Overview
-Security Plus specializes in AI-powered surveillance technology designed to enhance real-time security. Our state-of-the-art software continuously monitors live video feeds, identifying criminal activities such as theft, violence, or suspicious behavior. 
+Security Plus specializes in AI-powered surveillance technology designed to enhance real-time security. Our state-of-the-art software continuously monitors live video feeds, identifying criminal activities such as theft, violence, or suspicious behavior.
 
 ## Features
 - *AI-Powered Monitoring*: Uses advanced machine learning algorithms to detect threats and anomalies.
@@ -22,44 +22,96 @@ Security Plus specializes in AI-powered surveillance technology designed to enha
 - *Automated Surveillance*: Reduces the need for manual monitoring.
 - *Scalable Solutions*: Suitable for businesses, public spaces, and communities.
 
-Stay one step ahead of crime with Security Plus – the intelligent surveillance system built for modern security needs.
+Stay one step ahead of crime with Security Plus – the intelligent surveillance system built for modern security needs.
 
-# Running the Flask Backend
+---
 
-Follow these steps to set up and run the Flask backend:
+# Running the Application with Docker
 
 ## Prerequisites
+- Docker
+- Docker Compose
 
+## Running the Application
+1. **Clone the Repository**
+   ```sh
+   git clone "https://github.com/Sarthacker/Security-plus.git"
+   cd security-plus
+   ```
+
+2. **Build and Run Containers**
+   ```sh
+   docker-compose up --build
+   ```
+
+3. **Access the Application**
+   - Backend: `http://localhost:5000`
+   - Frontend: `http://localhost:3000`
+
+4. **Stopping the Application**
+   ```sh
+   docker-compose down
+   ```
+
+---
+
+# Running the Flask Backend (Without Docker)
+
+## Prerequisites
 - Python (>=3.8)
 - pip (latest version recommended)
 - Virtual environment (optional but recommended)
 
 ## Installation
 
-1. **Clone the Repository**
-   
-   ```sh
-   git clone "https://github.com/Sarthacker/Security-plus.git"
-   cd security-plus
-
-2. **Create and Activate Virtual Environment (Optional but Recommended)**
-   
+1. **Create and Activate Virtual Environment (Optional but Recommended)**
    ```sh
    python -m venv venv
    source venv/bin/activate  # macOS/Linux
    venv\Scripts\activate  # Windows
+   ```
 
-3. **Install Dependencies**
-
+2. **Install Dependencies**
    ```sh
    cd backend
    pip install -r requirements.txt
+   ```
 
-4. **Run the Flask Server**
-
+3. **Run the Flask Server**
    ```sh
    python app.py
+   ```
 
-## Dataset
-- The dataset that we used to train our model is the UCF Crime Dataset available on [Kaggle](https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset).
+---
+
+# Running the React Frontend (Without Docker)
+
+## Prerequisites
+- Node.js (>=14.0)
+- npm or yarn
+
+## Installation and Running
+1. **Navigate to the Frontend Directory**
+   ```sh
+   cd frontend
+   ```
+
+2. **Install Dependencies**
+   ```sh
+   npm install  # or yarn install
+   ```
+
+3. **Start the React Development Server**
+   ```sh
+   npm start  # or yarn start
+   ```
+
+4. **Access the Application**
+   - Frontend: `http://localhost:3000`
+
+---
+
+# Dataset
+- The dataset used to train our model is the UCF Crime Dataset available on [Kaggle](https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset).
 - The Model Weights can be downloaded from [here](https://drive.google.com/file/d/1hJiKJBcu3phWvjucH_zYD22Y_DpZ0-oy).
+
