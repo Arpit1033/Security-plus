@@ -112,6 +112,6 @@ Stay one step ahead of crime with Security Plus – the intelligent surveillance
 ---
 
 # Dataset
-- The dataset used to train our model is the UCF Crime Dataset available on [Kaggle](https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset).
+- The dataset used to train our model is the UCF Crime Dataset available on [Kaggle](https://www.kaggle.com/datasets/mission-ai/crimeucfdataset).
 - The Model Weights can be downloaded from [here](https://drive.google.com/file/d/1hJiKJBcu3phWvjucH_zYD22Y_DpZ0-oy).
 
